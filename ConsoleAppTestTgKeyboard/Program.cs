@@ -12,7 +12,7 @@ AppDomain.CurrentDomain.ProcessExit += (_, _) =>
     tcs.SetResult();
 };
 
-Console.WriteLine("Press enter to stop");
+Console.WriteLine("Press CTRL+C to stop");
 
 await tcs.Task;
 

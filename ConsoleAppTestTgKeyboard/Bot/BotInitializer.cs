@@ -12,7 +12,7 @@ public class BotInitializer
 
     public BotInitializer()
     {
-        _botClient = new TelegramBotClient("TOKEN");
+        _botClient = new TelegramBotClient("6484640879:AAGtK-Kv5FfOltNVZklrmHxsvbAgi9304K8");
         _cancellationTokenSource = new CancellationTokenSource();
     }
     
